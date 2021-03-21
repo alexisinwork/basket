@@ -7,6 +7,18 @@ On the main page you can add items to the shopping card.
 By clicking on the shopIcon you can go to Checkout.
 You can add/remove items there also, return back to Shopping or apply a PromoCode. (using X1, X10, X100 pattern).
 
+There are 2 folders: server and basket
+Server:
+1. Go to `/server`
+2. Run `npm install` or `yarn` to install dependencies
+3. Run `node server.js`
+Basket (Frontend using Next.js):
+1. Go to `/basket`
+2. Run `npm install` or `yarn`
+3. Run `npm build` or `yarn build`
+4. Run `npm run dev` or `yarn dev` for development
+5. Run `npm start` or `yarn start` fro production
+
 After all you can checkout.
 
 ## Getting Started
